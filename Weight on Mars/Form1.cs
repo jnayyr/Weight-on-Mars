@@ -84,7 +84,7 @@ namespace Weight_on_Mars
             }                
                 double conversionFactor = 0.377;
                 double marsWeight = earthWeight * conversionFactor;
-                txtWeightMars.Text = marsWeight.ToString();         
+            txtWeightMars.Text = String.Format("{0} weighs {1} on Mars", objectName, marsWeight);       
         }
     }
 }

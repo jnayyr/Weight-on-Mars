@@ -59,14 +59,15 @@
             // 
             this.txtWeightEarth.Location = new System.Drawing.Point(291, 95);
             this.txtWeightEarth.Name = "txtWeightEarth";
-            this.txtWeightEarth.Size = new System.Drawing.Size(198, 31);
-            this.txtWeightEarth.TabIndex = 2;
+            this.txtWeightEarth.Size = new System.Drawing.Size(285, 31);
+            this.txtWeightEarth.TabIndex = 1;
             // 
             // txtWeightMars
             // 
             this.txtWeightMars.Location = new System.Drawing.Point(291, 154);
             this.txtWeightMars.Name = "txtWeightMars";
-            this.txtWeightMars.Size = new System.Drawing.Size(198, 31);
+            this.txtWeightMars.ReadOnly = true;
+            this.txtWeightMars.Size = new System.Drawing.Size(292, 31);
             this.txtWeightMars.TabIndex = 3;
             // 
             // btnCalculate
@@ -74,7 +75,7 @@
             this.btnCalculate.Location = new System.Drawing.Point(173, 220);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(172, 60);
-            this.btnCalculate.TabIndex = 4;
+            this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
@@ -93,14 +94,14 @@
             this.txtObject.Location = new System.Drawing.Point(291, 39);
             this.txtObject.MaxLength = 50;
             this.txtObject.Name = "txtObject";
-            this.txtObject.Size = new System.Drawing.Size(198, 31);
-            this.txtObject.TabIndex = 6;
+            this.txtObject.Size = new System.Drawing.Size(285, 31);
+            this.txtObject.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 304);
+            this.ClientSize = new System.Drawing.Size(588, 322);
             this.Controls.Add(this.txtObject);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCalculate);
